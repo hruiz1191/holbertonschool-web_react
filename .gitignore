@@ -1,0 +1,41 @@
+# Ignore node dependencies
+node_modules/
+
+# Ignore build output
+dist/
+build/
+
+# Ignore IDE settings
+.vscode/
+.idea/
+*.sw?
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore compiled JS and map files (in case tsconfig outputs elsewhere)
+*.js
+*.js.map
+
+# Ignore temporary files
+*.log
+*.tmp
+*.temp
+
+# Optional: ignore coverage from tests
+coverage/
+
+# Ignore environment and config secrets (if ever added)
+.env
+.env.*
+
+# Task-specific: make sure all generated folders stay ignored
+task_*/dist/
+task_*/node_modules/
+task_*/build/
